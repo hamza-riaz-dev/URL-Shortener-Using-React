@@ -1,7 +1,5 @@
 import { useState } from 'react';
 
-
-
 const HistoryButton = () => {
   const [showHistory, setShowHistory] = useState(false);
   const [shortenedUrls, setShortenedUrls] = useState(JSON.parse(localStorage.getItem('shortenedUrls')) || []);
